@@ -12,13 +12,16 @@
 - ***console.log*** -> **log to console**
 ### **Statements** // Self-explanatory
 - ***else*** -> **otherwise**
+- ***try*** -> **try to execute code**
+- ***catch*** -> **if the code errors**
 ### **Conditions** // Self-explanatory
 - ***==*** -> **is equal to**
 - ***!=*** -> **is not equal to**
+- ***===*** -> **is strictly equal to**
 ### **Classes** // Related to Classes
 - ***new*** -> **create new**
 - ***class*** -> **classificate class named**
-- ***this*** -> **this**
+- ***this*** -> **myself**
 ### **Mathematical Expressions** // Related to Math
 - ***++*** -> **.increment**
 - ***--*** -> **.decrement**
@@ -27,6 +30,8 @@
 ### **Other** // Other Keywords
 - ***import {...} from '...'*** -> **forward {...} directly from '...'**
 - ***.*** -> **~**
+- ***$*** -> **£**
+- ***await*** -> **awaitively execute**
 ***
 # **Why** i made this
 - I was **inspired** by this quote: "***Developers are drawn to complexity like moths to a flame, often with the same outcome.***"
