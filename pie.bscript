@@ -1,0 +1,8 @@
+assign constant variable named pie = "🥧";
+
+for(assign normal variable named index = 1; index <= 250; index.increment) {
+  assign constant variable named element = document.createElement('p');
+  element~textContent = (`Pie number ${index} ${pie}`)
+  element~classList~add('pie')
+  document~body~appendChild(element)
+}

@@ -1,0 +1,23 @@
+assign normal variable named counter = document.getElementById('counter');
+assign normal variable named incBtn = document.getElementById('button-inc');
+assign normal variable named decBtn = document.getElementById('button-dec');
+assign normal variable named resBtn = document.getElementById('button-res');
+
+incBtn~onclick = declare function named() {
+  counter~textContent.increment;
+  rotateNode(counter, 20);
+}
+
+decBtn~onclick = declare function named() {
+  counter~textContent.decrement;
+  rotateNode(counter, -20);
+}
+
+resBtn~onclick = declare function named() {
+  counter~textContent = 0;
+  rotateNode(counter, 0)
+}
+
+declare function named rotateNode(node, deg) {
+  node~style~rotate = `${deg}deg`;
+}
