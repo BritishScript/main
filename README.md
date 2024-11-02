@@ -33,7 +33,7 @@
 - ***$*** -> **£**
 - ***await*** -> **awaitively execute**
 - ***continue*** -> **proceed to next iteration**
-- ***break*** +> **halt this thread**
+- ***break*** -> **halt this thread**
 ***
 # **Why** i made this
 - I was **inspired** by this quote: "***Developers are drawn to complexity like moths to a flame, often with the same outcome.***"
