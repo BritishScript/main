@@ -23,6 +23,8 @@ export function transpile(input) {
     .replace(/(?<!['"])\b(£)\b(?!['"])/g,'$')
     .replace(/(?<!['"`])\b(~)\b(?!['"`])/g,'.')
     .replace(/(?<!['"`])\b(awaitively execute)\b(?!['"`])/g,'await')
+    .replace(/(?<!['"`])\b(proceed to next iteration)\b(?!['"`])/g,'continue')
+    .replace(/(?<!['"`])\b(halt this thread)\b(?!['"`])/g,'break')
   
   return output;
 }
